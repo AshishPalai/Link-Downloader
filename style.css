@@ -1,0 +1,54 @@
+* {
+    Margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(12, 94, 94);
+}
+
+.linkDownload {
+    width: 500px;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 20px 25px 15px;
+}
+h1{
+    font-size: 2.15rem;
+    margin: 5px 80px;
+
+}
+p{
+    font-size: 1.3rem;
+    margin: 5px 50px;
+}
+
+input {
+    width: 100%;
+    padding: 10px 60px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 1.5rem;
+    height: 2.5rem;
+    padding-left: 0.5rem;
+}
+
+button {
+    width: 220px;
+    padding: 10px 40px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+    background-color: blueviolet;
+    margin: 10px 110px;
+    cursor: pointer;
+}
